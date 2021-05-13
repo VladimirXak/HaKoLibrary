@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
-namespace HaKoLibrary.Pooling
+namespace HakoLibrary.Pooling
 {
     public class PoolObject : MonoBehaviour
     {
-        public PoolContainer PoolContainer { get; set; }
+        public IPoolContainer PoolContainer { get; set; }
 
         public virtual void Return()
         {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace HaKoLibrary.Pooling
+namespace HakoLibrary.Pooling
 {
-    public class PoolContainer : MonoBehaviour
+    public class PoolContainer : MonoBehaviour, IPoolContainer
     {
         [SerializeField] private PoolObject _prefabPoolObject;
         [SerializeField] private Transform _parentItems;
